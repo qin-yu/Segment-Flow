@@ -1,0 +1,9 @@
+name: plantseg_conda
+channels:
+  - conda-forge
+dependencies:
+  - python>=3.11
+  - plant-seg=2.0.0rc10
+  - pip
+  - pip:
+    - git+https://github.com/FrancisCrickInstitute/aiod_utils.git
