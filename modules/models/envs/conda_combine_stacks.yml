@@ -3,16 +3,16 @@ channels:
   - conda-forge
 dependencies:
   - python=3.11
-  - pip
   - git
+  - pydantic
+  - numpy=1.26.4
+  - pandas
+  - scikit-image
+  - dask
+  - dask-image
+  - psutil
+  - numba
+  - tqdm
+  - pip
   - pip:
-    - pydantic
-    - numpy==1.26.4
-    - pandas
-    - scikit-image
-    - dask
-    - dask-image
-    - psutil
-    - numba
-    - tqdm
     - git+https://github.com/FrancisCrickInstitute/aiod_utils.git
