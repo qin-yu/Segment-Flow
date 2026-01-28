@@ -4,6 +4,7 @@ channels:
 dependencies:
   - python=3.11
   - pip
+  - git
   - pip:
     - numpy==1.26.4
     - pandas
