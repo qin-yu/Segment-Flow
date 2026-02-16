@@ -1,11 +1,6 @@
-# Model selection (use ONE of these):
-model_name: "generic_confocal_3D_unet"  # PlantSeg zoo model
-# model_id: "10.5281/zenodo.7261974"    # BioImage.IO model
-
 # Prediction parameters
-device: "cuda"  # or "cpu"
-patch: [80, 160, 160]  # [Z, Y, X] - optional, auto-computed if null
-patch_halo: [8, 16, 16]  # [Z, Y, X] - optional, auto-computed if null
+# patch: [80, 160, 160]  # [Z, Y, X] - optional, auto-computed if null
+# patch_halo: [8, 16, 16]  # [Z, Y, X] - optional, auto-computed if null
 single_batch_mode: true
 model_update: false
 disable_tqdm: false
